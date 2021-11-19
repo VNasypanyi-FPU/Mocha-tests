@@ -1,0 +1,37 @@
+'use strict';
+
+
+
+const isNullOrEmpty = text => typeof(text) === 'string' && text.length === 0;
+
+module.exports = function() {
+    countWords(text) {
+        if (isNullOrEmpty(text)) return 0;
+
+        return text.split(' ').length;
+    }
+
+    countSentences(text) {
+        if (isNullOrEmpty(text)) return 0;
+
+        text.match(/[\.?]/g).length;
+    }
+
+    countAllVowels(text) {
+        if (isNullOrEmpty(text)) return 0;
+
+        text.match(/[aeiouy]/gi).length;
+    }
+
+    countDifferentWords(text) {
+        if (isNullOrEmpty(text)) return 0;
+
+        new Set(text.match(/\w+/g).map(i => i.toLowerCase())).size;
+    }
+
+    countNumberOfAllCharacters(text) {
+        if (isNullOrEmpty(text)) return 0;
+
+        return text.length;
+    }
+}

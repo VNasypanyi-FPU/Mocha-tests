@@ -1,0 +1,33 @@
+var testing = require("./exe");
+
+ 
+
+ it("Word counter works properly", function() {
+    const isNullOrEmpty = 'Lorem ipsum'; 
+    var expectedResult = 2;
+	    var program = new testing()
+    var result = program.countWords(isNullOrEmpty);
+    if(result!=expectedResult){
+        throw new Error(`Expected ${expectedResult}, but got ${result}`);
+    } 
+ });
+ 
+ 
+ 
+ 
+ 
+ 
+/*it("should multiply two numbers", function(){
+     
+    var expectedResult = 14;
+    var result = operations.multiply(3, 5);
+    if(result!==expectedResult){
+        throw new Error(`Expected ${expectedResult}, but got ${result}`);
+    }
+});*/
+
+
+/*const / var / let  difference 
+assert livraries in mocha 
+how to initialise functions in nodejs 
+як створювати обєкт класу в тесті */
