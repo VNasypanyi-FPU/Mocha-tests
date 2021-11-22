@@ -2,7 +2,7 @@
 
 const isNullOrEmpty = text => typeof(text) === 'string' && text.length === 0; // checking for null/number/ other datatypes values is missing
 
-//check of isNullorEmpty function work
+
 console.log(isNullOrEmpty("")); //true
 console.log(isNullOrEmpty(null));  //false
 console.log(isNullOrEmpty("abc")); //false
