@@ -9,5 +9,18 @@
   },
   "dependencies": {
     "chai": "^4.3.4"
-  }
+  },
+  "main": "exe.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VNasypanyi-FPU/Mocha-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VNasypanyi-FPU/Mocha-tests/issues"
+  },
+  "homepage": "https://github.com/VNasypanyi-FPU/Mocha-tests#readme",
+  "description": ""
 }
